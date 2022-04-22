@@ -1,0 +1,13 @@
+abstract class Language{
+abstract void display();
+public static void main(String[] args){
+Test obj = new Test();
+obj.display();
+}
+}
+class Test extends Language{
+public void display(){
+System.out.println("Abstraction");
+}
+
+}
