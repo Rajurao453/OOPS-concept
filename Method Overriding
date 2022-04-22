@@ -1,0 +1,30 @@
+
+class Parent{
+void print()
+{
+System.out.println("parent class");
+}
+}
+//class2
+class subclass1 extends Parent{
+void print(){System.out.println("subclass1");
+}
+}
+//class3
+class subclass2 extends Parent{
+void print()
+{
+System.out.println("subclass2");
+}
+}
+//class4
+class Overriding{
+public static void main(String[] args)
+{
+Parent a;
+a = new subclass1();
+a.print();
+a = new subclass2();
+a.print();
+}
+}
