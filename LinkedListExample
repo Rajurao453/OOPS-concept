@@ -1,0 +1,15 @@
+import java.util.*;
+public class ListExample {
+	
+	
+	public static void main(String[] args)
+	{
+	LinkedList<String> linkedlist=new LinkedList<String>();
+	linkedlist.add("Naveen");
+	linkedlist.add("Raju");
+	linkedlist.add("Abhi");
+	linkedlist.add("Harish");
+	System.out.println(linkedlist);
+	linkedlist.remove(1);
+	System.out.println(linkedlist);
+	}
