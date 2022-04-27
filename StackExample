@@ -1,0 +1,16 @@
+import java.util.*;
+public class StackExample {
+	
+		public static void main(String[] args)
+		{
+		Stack<String> stack=new Stack<String>();
+		stack.push("Naveen");
+		stack.push("Raju");
+		stack.push("Abhi");
+		stack.push("Harish");
+		System.out.println(stack);
+		stack.remove(1);
+		System.out.println(stack);
+		}
+
+}
