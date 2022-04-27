@@ -1,0 +1,12 @@
+import java.util.*;
+public class QueueExample {
+	public static void main(String[] args) {
+		PriorityQueue<String> pqueue=new PriorityQueue<String>();
+		pqueue.add("Naveen");
+		pqueue.add("Raju");
+		pqueue.add("Abhi");
+		System.out.println(pqueue.peek());
+		System.out.println(pqueue.poll());
+		System.out.println(pqueue.peek());
+	}
+}
